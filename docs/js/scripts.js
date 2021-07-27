@@ -1,4 +1,4 @@
-document.getElementById("mid").addEventListner("touchstart", press);
+document.addEventListner("touchstart", press);
 
 function press(){
     alert('you pressed');
