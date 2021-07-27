@@ -1,1 +1,19 @@
+.block{
+  position: absolute;
+  background-color: blue;
+  top: 20px;
+  width: 30px;
+  height: 100px;
+}
 
+#left{
+  left: 10px;
+}
+
+#center{
+  left: 50px;
+}
+
+#right{
+  left: 90;
+}
