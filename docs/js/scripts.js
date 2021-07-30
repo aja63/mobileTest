@@ -7,4 +7,5 @@ function press(){
         case "left": alert('this.id'); break;
         case "mid":  alert('this.id'); break;
         case "right": alert('this.id'); break;
+    }
 }
