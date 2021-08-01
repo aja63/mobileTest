@@ -91,6 +91,7 @@ class Rock{
 	}
 	
 	hit(){
+		clearInterval(moving);
 		alert("hit"); location.reload();
 	}
 	
