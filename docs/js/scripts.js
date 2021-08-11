@@ -20,9 +20,9 @@ map.drawImage(bg,0,0);
 
 
 
-document.getElementById("left").addEventListener("mousedown", input);
-document.getElementById("right").addEventListener("mousedown", input);
-document.getElementById("jump").addEventListener("mousedown", input);
+document.getElementById("left").addEventListener("touchstart", input);
+document.getElementById("right").addEventListener("touchstart", input);
+document.getElementById("jump").addEventListener("touchstart", input);
 
 function input(){
 	player.moveHandle(this.id);
