@@ -1,0 +1,86 @@
+#startGame{
+	position: absolute;
+	left: 40%;
+	top: 20%;
+	height: 250px;
+	width: 500px;
+	background-image: url('start.png');
+	font-size: 100px;
+	text-align: center;
+}
+
+#rules{
+	position: absolute;
+	left : 35%;
+	top: 40%;
+	font-size: 50px;
+}
+
+
+
+#map{
+	position: absolute;
+	top: 100px;
+	left: 250px;
+	background-color: aqua;
+}
+
+#left{
+	left: 100px;
+}
+
+#right{
+	left: 1100px;
+}
+#jump{
+	left: 550px;
+	width: 400px;
+}
+.button{
+	top: 100px;
+	position: absolute;
+	width: 300px;
+	height: 500px;
+}
+
+
+#exp{
+	position: absolute;
+	top: 0px;
+	left: 250px;
+	font-size: 50px;
+	color: blue;
+	
+}
+#gp{
+	position: absolute;
+	top: 0px;
+	left: 1200px;
+	font-size: 50px;
+	color: gold;
+}
+#hp{
+	position: absolute;
+	top: 70px;
+	left: 490px;
+	height: 25px;
+	background-color: red;
+}
+
+
+.shop{
+	position: absolute;
+	top: 100px;
+	width: 300px;
+	height: 300px;
+	background-color: red;
+}
+
+#leaveShop{
+	position: absolute;
+	width: 200px;
+	height: 100px;
+	top: 500px;
+	left: 650px;
+	background-color: blue;
+}
