@@ -42,7 +42,7 @@ function spawnEnemy(){
 	if(game == true){	
 		spawnSlime()
 		if(player.stats.exp>200){spawnSlime()};
-		if(player.stats.exp>300 && shop.visits < 1 && shop.active == false){game = false; shop.spawnShop(); document.getElementById("leaveShop").addEventListener("touchstart", leaveShop)};
+		if(player.stats.exp>600 && shop.visits < 1 && shop.active == false){game = false; shop.spawnShop(); document.getElementById("leaveShop").addEventListener("touchstart", leaveShop)};
 		if(player.stats.exp>500){spawnSlime(); rate = 750};
 		if(player.stats.exp>700){spawnSlime(); rate = 500};
 		if(player.stats.exp>1000){alert('win')};
